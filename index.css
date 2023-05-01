@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-box {
+    border: 4px solid black;
+    height: 40vh;
+    width: 98vw;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+    padding-left: 10px;
+}
+.purple-box{
+    background-color: purple;
+    width: 100px;
+    height: 175px;
+    align-self: self-end;
+    margin-bottom: 14px;
+
+}
+.green-box {
+    background-color: green;
+    
+    height: 90%;
+    flex-basis: 40%;
+}
+.blue-circle {
+    background-color: lightblue;
+    width: 250px;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.dotted-box {
+    border: 4px dotted black;
+    height: 40vh;
+    width: 98vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-box {
+    width: 95%;
+    height: 70%;
+    background-color: lightyellow;
+    -webkit-box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+    -moz-box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+    box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+
+}
+
+.hello-box{
+    width: 50vw;
+    height: 50vh;
+    margin: 10px;
+    -webkit-box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+    -moz-box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+    box-shadow: 12px 14px 35px -4px rgba(0,0,0,0.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hello-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    letter-spacing: 10px;
+}
+
